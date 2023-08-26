@@ -22,3 +22,16 @@
     font-size: 120px;
     font-weight: 600;
 }
+#focus{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    z-index: 1;
+    background: url(Media/447-photo.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 50%;
+    top: calc(50% - 140px);
+    left: calc(50% - 140px);
+}
